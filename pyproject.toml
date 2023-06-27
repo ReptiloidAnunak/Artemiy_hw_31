@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "avito30"
+version = "0.1.0"
+description = ""
+authors = ["arjuna <amanitocornholio@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.2"
+psycopg2 = "^2.9.6"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+pillow = "^9.5.0"
+apiview = "^1.3.25"
+pytest-django = "^4.5.2"
+pytest-factoryboy = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
